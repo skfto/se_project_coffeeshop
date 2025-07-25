@@ -17,7 +17,6 @@
 
 <body>
   <div class="page">
-
 <header class="header">
   <nav class="nav">
    <img src="./images/logo_coffeeshop_dark.svg" alt="Triple Espresso" class="nav__logo"/>
@@ -50,10 +49,29 @@
 </header>
 
 <main class="content">
-  <section class="recipes"></section>
-  <section class="reservation"></section>
-  <section class="menu"></section>
-  <section class="about"></section>
+  <section id="recipes" class="recipes">
+    <div class="recipes__content">
+      <h2 class="recipes__title">Recipes</h2>
+      <p class="recipes__subtitle">Check out some recipes we've collected for your home-brewing convenience:</p>
+      <ul class="recipes__videos">
+      <li>
+      <iframe width="480" height="273" src="https://www.youtube.com/embed/j6VlT_jUVPc?si=U-fEe7zeBBy9caHD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <p class="recipes__video-caption">
+        <span>Aeropress recipe</span>
+        <span>~5 min</span></p>
+      </li>
+       <li>
+      <iframe width="480" height="273" src="https://www.youtube.com/embed/st571DYYTR8?si=5E32Kmyy7plJwlQU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <p class="recipes__video-caption">
+        <span>French press recipe</span>
+        <span>~15 min</span></p>
+      </li>
+      </ul>
+    </div>
+  </section>
+  <section id="reservation" class="reservation"></section>
+  <section id="menu" class="menu"></section>
+  <section id="about" class="about"></section>
 </main>
 
 <footer class="footer"></footer>

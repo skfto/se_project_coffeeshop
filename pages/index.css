@@ -47,6 +47,7 @@
 
 .nav__link {
   text-decoration: none;
+  color: #000;
 }
 
 .header__title {
@@ -95,4 +96,46 @@
 
 .header__paragraph {
   margin: 0;
+}
+
+.recipes{
+  color: #fff;
+  background-color: #0A2750;
+  background-image: url(../images/background_recipes.svg);
+  background-size: cover;
+  padding: 100px 80px 215px;
+}
+
+.recipes__title {
+  color: #ffffff;
+  max-width: 580px;
+  margin: 0 0 24px;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.recipes__subtitle {
+  color: #ffffff;
+  max-width: 438px;
+  margin: 0 0 80px;
+  font-family: "Noto Serif", "Time New Roman", serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.recipes__videos {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  gap: 40px;
+}
+
+.recipes__video-caption {
+  padding: 24px 0 0;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
 }
