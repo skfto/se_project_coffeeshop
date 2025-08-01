@@ -7,7 +7,6 @@
   <meta name="author" content="Shemaiah OBard"/>
   <meta name="description" content="The coffee shop where you can come to let go and relax. Let all your problems fade away with the worlds best coffee"/>
   <meta name="keywords" content="best, coffee, shop, relax"/>
-  <link rel="stylesheet" href="./vendor/normalize.css">
   <link rel="stylesheet" href="./pages/index.css">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,13 +24,13 @@
        <a href="#recipes" class="nav__link">Recipes</a>
       </li>
       <li>
-       <a class="nav__link">Book a table</a>
+       <a href="#reservation" class="nav__link">Book a table</a>
       </li>
       <li>
-        <a class="nav__link">Menu</a>
+        <a>Menu</a>
       </li>
       <li>
-        <a class="nav__link">Contacts</a>
+        <a>Contacts</a>
       </li>
      </ul>
     </nav>
@@ -70,7 +69,7 @@
     </div>
   </section>
 
-  <section class="reservation">
+  <section id="reservation" class="reservation">
       <h2 class="reservation__title">Book a table</h2>
        <form class="reservation__form form">
         <fieldset class="form__fieldset">
@@ -96,11 +95,31 @@
             <input class="form__checkbox" type="checkbox" name="I agree with terms of use" id="terms-input" required>
           I agree with terms of use
           </lable>
-
     </form>
   </section>
 
-  <section class="menu"></section>
+  <section id="menu" class="menu">
+    <h2 class="menu__title">Menu</h2>
+    <h3 class="menu__subtitle">We brew coffee from locally roasted, Fairtrade certified beans and use biodegradable cups. All teas from our collection are $2/cup.</h3>
+    <ul class="menu__cards">
+      <li class="card__list-item">
+        <span class="card__filter">Filter</span>
+        <span class="card__list-item"></span>
+        <span class="card__list-divider"></span>
+      </li>
+        <li class="card__list-item">
+        <span class="card__filter">Espresso</span>
+        <span class="card__list-item"></span>
+        <span class="card__list-divider"></span>
+      </li>
+        <li class="card__list-item">
+        <span class="card__filter">Baked Goods</span>
+        <span class="card__list-item"></span>
+        <span class="card__list-divider"></span>
+      </li>
+    </ul>
+  </section>
+
   <section class="about"></section>
 </main>
 
