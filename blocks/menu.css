@@ -1,11 +1,37 @@
 .menu {
   padding: 100px 0;
+  background-color: #fff;
+  background-image: url(../images/background_menu.svg);
+  background-repeat: none;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .menu__title {
   margin: 0 0 24px;
+  max-width: 780px;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
 }
 
 .menu__subtitle {
   margin: 0 0 100px;
+  max-width: 780px;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "Noto Serif", "Time New Roman", serif;
 }
+
+.menu__cards {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  justify-content: center;
+}
+
