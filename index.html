@@ -76,20 +76,16 @@
           <lable class="form__label" for="name-input">Name *
             <input class="form__input" type="text" placeholder="Name Surname" id="name-input" required>
           </lable>
-
           <lable class="form__label" for="guest-input">Number of guest *
             <input class="form__input" type="number" placeholder="1-8" min="1" max="8" id="guest-input" required>
           </lable>
-
           <lable class="form__label" for="date/time-input">Date & time *
             <input class="form__input" type="datetime-local" id="date/time-input" required>
           </lable>
-
           <lable class="form__label" for="email-input">Your email *
             <input class="form__input" type="email" placeholder="email@email.com" id="email-input" required>
           </lable>
         </fieldset>
-
            <button class="form__button" type="submit">Book a table</button>
           <lable class="form__label form__label_type_checkbox" for="terms-input">
             <input class="form__checkbox" type="checkbox" name="I agree with terms of use" id="terms-input" required>
@@ -123,8 +119,6 @@
               </li>
             </ul>
           </li>
-
-
           <li class="card">
         <h3 class="card__title">Espresso</h3>
           <ul class="card__list">
@@ -142,7 +136,6 @@
             </li>
            </ul>
           </li>
-
           <li class="card">
         <h3 class="card__title">Baked Goods</h3>
           <ul class="card__list">
@@ -169,10 +162,24 @@
     </ul>
   </section>
 
-  <section class="about"></section>
+  <section id="about" class="about">
+    <h2 class="about__title">About the coffee shop</h2>
+    <div class="about__content">
+      <p class="about__paragraph">
+        Our coffee shop is located in the Triple Peaks Library. It features 6
+        tables and free WiFi.</p>
+      <p class="about__paragraph">
+        Our main mission is keeping guests cozy and energized.</p>
+      <p class="about__paragraph">
+        Besides that, we try to reduce our environmental impact — so we don't sell single-use cups. But you can buy one of our reusable cups!
+      </p>
+    </div>
+    <div class="about__circle about__circle_animation_blurred"></div>
+
+  </section>
 </main>
 
 <footer class="footer"></footer>
-  </div>
-</body>
+    </div>
+  </body>
 </html>
