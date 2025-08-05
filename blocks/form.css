@@ -37,6 +37,13 @@
   color: #ffffff;
   border: none;
   margin-bottom: 32px;
+  cursor: pointer;
+  opacity: 1;
+  transition: opacity .5s ease;
+}
+
+.form__button:hover {
+  opacity: .7;
 }
 
 .form__checkbox {

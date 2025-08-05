@@ -19,6 +19,10 @@
   padding-bottom: 20px;
   color: #fff;
   margin: 0;
+  font-family: "Inter", "Arial", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .footer__list {
@@ -43,6 +47,9 @@
   text-decoration: none;
   display: flex;
   align-items: center;
+  font-family: "Inter", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .footer__social-link:hover {
@@ -60,4 +67,7 @@
   margin: 0;
   color: #fff;
   padding: 108px 0 60px 80px;
+  font-family: "Inter", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
 }
