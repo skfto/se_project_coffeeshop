@@ -27,7 +27,7 @@
 }
 
 .header__description {
-  margin-left: 80px;
+  margin: 0;
   max-width: 683px;
   font-family: "Noto Serif", "Time New Roman", serif;
   font-size: 20px;
@@ -51,6 +51,10 @@
   font-size: 16px;
   line-height: 20px;
   color: #6f6f6f
+}
+
+.header__footer-description {
+  margin: 0;
 }
 
 .header__paragraph {

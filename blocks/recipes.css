@@ -4,6 +4,7 @@
   background-image: url(../images/background_recipes.svg);
   background-size: cover;
   padding: 100px 80px 215px;
+  background-position: repeat;
 }
 
 .recipes__title {
@@ -29,6 +30,8 @@
   justify-content: center;
   list-style-type: none;
   gap: 40px;
+  margin: 0;
+  padding: 0;
 }
 
 .recipes__video-caption {
@@ -38,4 +41,10 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
+  margin: 0;
+}
+
+.recipes__iframe {
+  width: 480px;
+  height: 273px;
 }
