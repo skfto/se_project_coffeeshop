@@ -3,6 +3,8 @@
   background-image: url(../images/background_reservation.svg);
   background-size: cover;
   padding: 100px 0 120px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .reservation__form {
